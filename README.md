@@ -8,24 +8,48 @@ Bring [Antimetal's](https://antimetal.com) software investigation intelligence i
 
 Sign up at [antimetal.com](https://antimetal.com) and connect your cloud infrastructure.
 
-### 2. Set Your API Key
+### 2. Add the Plugin Marketplace
 
-```bash
-export ANTIMETAL_API_KEY="your-key-here"
+Since this plugin is hosted on GitHub (not the built-in Claude Code marketplace), you need to register this repo as a plugin source first:
+
 ```
-
-Get your API key from [Account Settings](https://app.antimetal.com/settings/api). Add it to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.) so it persists.
+/plugin marketplace add antimetal/claude-plugin
+```
 
 ### 3. Install the Plugin
 
 ```
-/plugin install antimetal/claude-plugin
+/plugin install antimetal
 ```
 
-Or add just the MCP server (no skills):
+### 4. Authenticate
+
+When you first use an Antimetal tool or skill, Claude Code will open a browser window to log in to your Antimetal account via OAuth. Once you log in, you're all set — tokens are stored securely and refreshed automatically.
+
+#### Alternative: API key
+
+If OAuth isn't available in your environment, you can authenticate with an API key instead:
+
+1. Generate a key at [API Keys Settings](https://overlook.antimetal.com/settings/api-keys)
+2. Set the environment variable:
+   ```bash
+   export ANTIMETAL_API_KEY="your-key-here"
+   ```
+   Add it to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.) so it persists.
+
+### MCP server only (no skills)
+
+If you just want the MCP tools without the plugin skills:
 
 ```bash
 claude mcp add --transport http antimetal https://mcp.antimetal.com
+```
+
+OAuth will trigger automatically on first use. For API key auth, pass the header explicitly:
+
+```bash
+claude mcp add --transport http antimetal https://mcp.antimetal.com \
+  --header "Authorization: Bearer ${ANTIMETAL_API_KEY}"
 ```
 
 ## Skills

@@ -22,7 +22,7 @@ Most modern AI editors handle OAuth automatically when you connect to a remote M
 
 If OAuth isn't working or your editor doesn't support it, use an API key:
 
-1. **Generate a key** — go to `https://app.antimetal.com/settings/api` and create a new API key
+1. **Generate a key** — go to `https://overlook.antimetal.com/settings/api-keys` and create a new API key
 2. **Set the environment variable**:
    ```bash
    export ANTIMETAL_API_KEY=your_key_here
