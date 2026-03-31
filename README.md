@@ -1,4 +1,4 @@
-# Antimetal Plugin — Claude Code
+# Antimetal Plugin — Claude Code (beta)
 
 Bring [Antimetal's](https://antimetal.com) software investigation intelligence into Claude Code. Triage problems, investigate root causes, fetch observability artifacts, and apply remediations — all from your terminal.
 
