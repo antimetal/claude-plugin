@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "antimetal": {
+      "type": "http",
+      "url": "https://mcp.antimetal.com"
+    }
+  }
+}

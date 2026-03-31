@@ -1,0 +1,13 @@
+{
+  "name": "antimetal",
+  "version": "1.0.0",
+  "description": "Investigate and fix cloud infrastructure issues with Antimetal. Triage problems, investigate root causes, fetch observability artifacts, and apply remediations — all from your terminal.",
+  "author": {
+    "name": "Antimetal",
+    "email": "support@antimetal.com"
+  },
+  "homepage": "https://docs.antimetal.com/ai/claude-code",
+  "repository": "https://github.com/antimetal/claude-plugin",
+  "license": "MIT",
+  "keywords": ["antimetal", "observability", "investigation", "remediation", "mcp", "infrastructure"]
+}
