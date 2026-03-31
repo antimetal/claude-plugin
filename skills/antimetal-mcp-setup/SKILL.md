@@ -1,6 +1,6 @@
 ---
 name: antimetal-mcp-setup
-description: "Configure the Antimetal MCP server connection. Use when the user needs to set up Antimetal in their AI editor, is getting authentication errors, or wants to verify the connection is working. Also triggers for: 'how do I connect Antimetal', 'set up MCP', 'authentication failed', 'configure API key'."
+description: "Configure the Antimetal MCP server connection. Use when the user needs to set up Antimetal in their AI editor, is getting authentication errors, or wants to verify the connection is working. Also triggers for: 'how do I connect Antimetal', 'set up MCP', 'authentication failed', 'configure API key', 'configure OAuth'."
 ---
 
 # Antimetal MCP Setup

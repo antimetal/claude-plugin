@@ -6,7 +6,7 @@
     "name": "Antimetal",
     "email": "support@antimetal.com"
   },
-  "homepage": "https://docs.antimetal.com/ai/claude-code",
+  "homepage": "https://docs.antimetal.com/connect",
   "repository": "https://github.com/antimetal/claude-plugin",
   "license": "MIT",
   "keywords": ["antimetal", "observability", "investigation", "remediation", "mcp", "infrastructure"]

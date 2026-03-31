@@ -98,6 +98,6 @@ Connects to Antimetal's remote MCP server at `mcp.antimetal.com`, providing acce
 
 ## Links
 
-- [Documentation](https://docs.antimetal.com/ai/claude-code)
+- [Documentation](https://docs.antimetal.com/connect)
 - [Antimetal](https://antimetal.com)
 - [Cursor Plugin](https://github.com/antimetal/cursor-plugin)
