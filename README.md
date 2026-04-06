@@ -1,5 +1,9 @@
 # Antimetal Plugin — Claude Code (beta)
 
+> ⚠️ **DEPRECATED**: This repository has been replaced by [`antimetal/skills`](https://github.com/antimetal/skills). See that repo for installation instructions.
+
+---
+
 Bring [Antimetal's](https://antimetal.com) software investigation intelligence into Claude Code. Triage problems, investigate root causes, fetch observability artifacts, and apply remediations — all from your terminal.
 
 ## Setup
